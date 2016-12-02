@@ -23,6 +23,6 @@ class GreetingController {
     
     @RequestMapping("/hello/{name}")
     String hello(@PathVariable String name) {
-        return "Greeting, " + name + "!";
+        return "Good to see you, " + name + "!";
     }
 }
